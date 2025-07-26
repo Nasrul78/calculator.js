@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+  @apply caret-transparent;
+}
+
+body {
+  @apply bg-gradient-to-br from-yellow-500 to-blue-500 min-h-screen flex items-center justify-center;
+}
